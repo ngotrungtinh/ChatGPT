@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chat GPT Website</title> 
+    <link rel="stylesheet" href="path/to/chat-gpt.css">
+    <link rel="stylesheet" href="chatGPT.js">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Chat GPT</h1>
+    <p>A Powerful Chatbot based on GPT Architecture</p>
+  </header>
+
+  <main>
+    <h2>About Chat GPT</h2>
+    <p>Chat GPT is an advanced chatbot powered by OpenAI's GPT language model. It utilizes natural language processing (NLP) techniques to generate human-like responses to user queries.</p>
+    
+    <h2>Features</h2>
+    <ul>
+      <li>Real-time interaction with the chatbot</li>
+      <li>Support for multiple languages</li>
+      <li>Customizable conversational style</li>
+      <li>Integration options for various platforms</li>
+    </ul>
+
+    <h2>Get Started</h2>
+    <p>To start chatting with Chat GPT simply enter your message in the input box below:</p>
+    <input type="text" id="chatInput" placeholder="Enter your message...">
+    <button onclick="sendMessage()">Send</button>
+    <div id="chatOutput"></div>
+
+   
+  </main>
+  <script>
+  // JavaScript code for chat functionality
+  function sendMessage() {
+    var message = document.getElementById("chatInput").value;
+    // Code to send message to the backend and receive the response from Chat GPT
+  
+    // This is just a placeholder code to display the response on the webpage
+    document.getElementById("chatOutput").innerHTML += "<p><strong>User:</strong> " + message + "</p>";
+    document.getElementById("chatOutput").innerHTML += "<p><strong>Chat GPT:</strong> " + "Sống sao cho giống con người tí đi" + "</p>";
+    document.getElementById("chatInput").value = "";
+  }
+</script>
+  <footer>
+    <p>&copy; 2023 Chat GPT. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
