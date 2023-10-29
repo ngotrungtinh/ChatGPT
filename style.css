@@ -1,0 +1,71 @@
+/* Container for the chat window */
+.chat-container {
+    width: 900px;
+    height: 800px;
+
+    overflow: auto;
+    padding: 10px;
+    
+  }
+  
+  /* Individual chat messages */
+  .chat-message {
+    margin-bottom: 10px;
+  }
+  
+  /* User message style */
+  .user-message {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  /* Assistant message style */
+  .assistant-message {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  /* Assistant name style */
+  .assistant-name {
+    font-weight: bold;
+  }
+  
+  /* Assistant avatar style */
+  .assistant-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  /* Input area for user */
+  .user-input {
+    margin-top: 10px;
+  }
+  
+  /* Button style for user input */
+  .user-input button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Button hover effect */
+  .user-input button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Input field for user */
+  .user-input input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
